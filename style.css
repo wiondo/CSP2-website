@@ -1,0 +1,60 @@
+/*
+ * Name: 이현동
+ * Date: April 18, 2026
+ * Section: IAB 6068
+ *
+ * This is the JS to implement the UI for my cryptogram generator, and
+generate
+ */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Times New Roman", serif;
+  background-color: #dff4ff;
+  text-align: center;
+}
+
+.intro-page {
+  width: 100%;
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.intro-card {
+  width: 420px;
+  margin: 0 auto;
+  padding: 60px 40px;
+  background-color: #ffffff;
+  border: 1px solid #bcdff1;
+}
+
+.intro-card h1 {
+  font-size: 48px;
+  font-weight: normal;
+  margin-bottom: 30px;
+  color: #111111;
+}
+
+.sound-notice {
+  font-size: 18px;
+  margin-bottom: 35px;
+  color: #333333;
+}
+
+.play-button {
+  display: inline-block;
+  text-decoration: none;
+  color: #111111;
+  background-color: #f2f2f2;
+  border: 1px solid #bbbbbb;
+  padding: 14px 32px;
+  font-size: 18px;
+}
+
+.play-button:hover {
+  background-color: #dddddd;
+}

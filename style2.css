@@ -1,0 +1,127 @@
+/*
+ * Name: 이현동
+ * Date: April 18, 2026
+ * Section: IAB 6068
+ *
+ * This is the style2.css file for my piano and art website.
+ * It is used to style the piano page with the piano keyboard layout.
+ */
+
+.piano-page-body {
+  background-color: #f5f5f5;
+  font-family: "Times New Roman", serif;
+  text-align: center;
+}
+
+.piano-page {
+  width: 100%;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.piano-wrapper {
+  width: 550px;
+  margin: 0 auto;
+}
+
+.piano {
+  position: relative;
+  width: 550px;
+  height: 340px;
+  background-color: #ffffff;
+  border: 2px solid #888;
+  overflow: hidden;
+}
+
+.white-key {
+  width: 55px;
+  height: 340px;
+  border: 1px solid #888;
+  background-color: #ffffff;
+  color: #222;
+  cursor: pointer;
+  float: left;
+  box-sizing: border-box;
+  text-align: center;
+  padding-top: 165px;
+  font-size: 16px;
+}
+
+.black-key {
+  position: absolute;
+  width: 30px;
+  height: 190px;
+  background-color: #000000;
+  border: none;
+  z-index: 10;
+  cursor: pointer;
+}
+
+.black-1 {
+  left: 40px;
+}
+
+.black-2 {
+  left: 95px;
+}
+
+.black-3 {
+  left: 205px;
+}
+
+.black-4 {
+  left: 260px;
+}
+
+.black-5 {
+  left: 315px;
+}
+
+.black-6 {
+  left: 425px;
+}
+
+.black-7 {
+  left: 480px;
+}
+
+.white-key:hover {
+  background-color: #f0f0f0;
+}
+
+.black-key:hover {
+  background-color: #222;
+}
+
+html {
+  height: 100%;
+}
+
+.piano-page-body {
+  height: 100%;
+  margin: 0;
+  font-family: "Times New Roman", serif;
+  text-align: center;
+  background-color: #f5f5f5;
+  background-repeat: no-repeat;
+}
+.note-history {
+  width: 550px;
+  margin: 30px auto 0 auto;
+  background-color: #ffffff;
+  border: 1px solid #999999;
+  padding: 20px;
+  text-align: left;
+}
+
+.note-history h2 {
+  font-size: 24px;
+  margin-bottom: 15px;
+  color: #222222;
+}
+
+#history-list p {
+  font-size: 16px;
+  margin-bottom: 8px;
+  color: #333333;
+}
